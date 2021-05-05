@@ -114,9 +114,7 @@ class HomeFragment : Fragment() {
                 phones.getString(phones.getColumnIndex(ContactsContract.CommonDataKinds.Phone.NUMBER))
             contactList.add(Contact(name, number))
         }
-        contactList.sortBy { it ->
-            it.name
-        }
+
     }
 
 }
